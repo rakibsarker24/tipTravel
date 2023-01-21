@@ -1,0 +1,35 @@
+.sidenav{
+    width:100%;
+    background-color: rgb(71, 71, 71);
+   
+}
+ol, ul {
+    padding-left: 0rem !important;
+}
+
+.sidenav ul li{
+    list-style: none;
+}
+.sidenav ul li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    text-transform: capitalize;
+    padding: 5px 20px;
+}
+.sidenav ul li a:hover{
+    color:rgb(39, 39, 39);
+    background-color: aqua;
+}
+.sidenav .home{
+    color:rgb(255, 255, 255);
+    padding-right: 10px;
+    font-size: 30px;
+}
+.sidenav ul li a:hover .home{
+    color:rgb(39, 39, 39);
+}
+.lp{
+    padding-left: 3px;
+    font-size: 16px;
+}

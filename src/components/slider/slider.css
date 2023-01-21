@@ -1,0 +1,182 @@
+#slider{
+    background-size: cover;
+    padding: 250px 0;
+    position: relative;
+}
+.slid{
+    margin-bottom: 19%;
+}
+#slider::after{
+    position: absolute;
+    content: '';
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: hsla(0, 0%, 0%, 0.336);
+}
+#slider .slider-content{
+   z-index: 9999;
+   text-align: center;
+   position: relative;
+}
+#slider .slider-content h1{
+   color:white;
+   font-size: 50px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 800;
+}
+#slider .slider-content span{
+   color:white;
+   font-size: 18px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+}
+
+.slid .bootom {
+    background-color: rgb(253 253 253);
+    border: 1px solid #0ddce1;
+    margin-bottom: 80px;
+    padding: 30px 30px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    box-shadow: 0px 4px 5px 0px rgba(20,20,20,0.17);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(20,20,20,0.17);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(20,20,20,0.17);
+}
+.slid .bootom .bottomContent .top .text{
+    display: inline-block;
+}
+.slid .bootom .bottomContent .top .text a{
+    color: rgb(65, 65, 65);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 7px 12px;
+    text-decoration: none;
+    border: 1px solid #0ddce1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.slid .bootom .bottomContent .top .text a:hover{
+    color: rgb(65, 65, 65);
+   background-color: #0ddce1;
+}
+.slid .bootom .bottomContent .top .rtext{
+    display: inline-block;
+    text-align: right;
+}
+.slid .bootom .bottomContent .top{
+    position: relative;
+}
+.slid .bootom .bottomContent .top .rtext{
+    position: absolute;
+    top:0%;
+    right: 0%;
+}
+.slid .bootom .bottomContent .top .rtext a{
+    color: rgb(65, 65, 65);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 7px 12px;
+    text-decoration: none;
+}
+.slid .bootom .bottomContent .form .left{
+    display: inline-block;
+}
+
+.slid .bootom .bottomContent .left{
+    display: inline-block;
+    width: 23%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid #0ddce1;
+    padding: 10px 20px;
+    margin: 0 10px;
+    margin-top:15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.slid .bootom .bottomContent .left p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+}
+.slid .bootom .bottomContent .left span {
+    position: absolute;
+    top: 7px;
+    right: 25px;
+    color: rgb(65, 65, 65);
+    font-size: 20px;
+}
+.slid .bootom .bottomContent .button {
+  text-align: center;
+  margin-top: 30px;
+}
+.slid .bootom .bottomContent .button .icon{
+    font-size: 24px;
+}
+.slid .bootom .bottomContent .button a{
+    border:1px solid #0ddce1;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(29, 29, 29);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.slid .bootom .bottomContent .button a:hover{
+    background-color: #0ddce1;
+}
+
+.slid{
+    position: relative;
+}
+.slid .bootom{
+    width: 82%;
+    z-index: 9999999999;
+    position: absolute;
+    top:74%;
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.form-control {
+    border: 1px solid rgba(13, 221, 225, 0.5) !important;
+}
+
+.form-select {
+    border: 1px solid rgba(13, 221, 225, 0.5) !important;
+    margin-bottom: 16px;
+}

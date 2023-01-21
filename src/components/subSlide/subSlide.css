@@ -1,0 +1,38 @@
+#subSlide{
+    margin-bottom: 80px;
+}
+#subSlide .slider{
+    padding-top: 150px;
+    padding-bottom:50px;
+    border-radius: 5px;
+    padding-left:20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.carousel-indicators {
+    visibility: hidden;
+}
+#subSlide .slider h4{
+    color: #ffffff;
+    font-size: 30px;
+    width:80%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#subSlide .slider span{
+    color:#0ddce1;
+    font-size: 22px;
+    width:100%;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+#subSlide .slidItem {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
